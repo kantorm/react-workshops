@@ -1,0 +1,198 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without crashing 1`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <div
+    className="App"
+>
+    <div
+        className="App-header"
+    >
+        <img
+            alt="logo"
+            className="App-logo"
+            src="logo.svg"
+        />
+    </div>
+    <TodoAdd
+        addTodo={[Function]}
+    />
+    <TodoList
+        removeTodo={[Function]}
+        todos={
+            Array [
+                Object {
+                  "id": 1,
+                  "text": "todo 1",
+                },
+                Object {
+                  "id": 2,
+                  "text": "todo 2",
+                },
+              ]
+        }
+    />
+</div>,
+  "nodes": Array [
+    <div
+      className="App"
+>
+      <div
+            className="App-header"
+      >
+            <img
+                  alt="logo"
+                  className="App-logo"
+                  src="logo.svg"
+            />
+      </div>
+      <TodoAdd
+            addTodo={[Function]}
+      />
+      <TodoList
+            removeTodo={[Function]}
+            todos={
+                  Array [
+                        Object {
+                          "id": 1,
+                          "text": "todo 1",
+                        },
+                        Object {
+                          "id": 2,
+                          "text": "todo 2",
+                        },
+                      ]
+            }
+      />
+</div>,
+  ],
+  "options": Object {},
+  "renderer": ReactShallowRenderer {
+    "_instance": ShallowComponentWrapper {
+      "_calledComponentWillUnmount": false,
+      "_compositeType": 0,
+      "_context": Object {},
+      "_currentElement": <App />,
+      "_debugID": 1,
+      "_hostContainerInfo": null,
+      "_hostParent": null,
+      "_instance": App {
+        "_reactInternalInstance": [Circular],
+        "addTodo": [Function],
+        "context": Object {},
+        "props": Object {},
+        "refs": Object {},
+        "removeTodo": [Function],
+        "state": Object {
+          "todos": Array [
+            Object {
+              "id": 1,
+              "text": "todo 1",
+            },
+            Object {
+              "id": 2,
+              "text": "todo 2",
+            },
+          ],
+        },
+        "updater": Object {
+          "enqueueCallback": [Function],
+          "enqueueCallbackInternal": [Function],
+          "enqueueElementInternal": [Function],
+          "enqueueForceUpdate": [Function],
+          "enqueueReplaceState": [Function],
+          "enqueueSetState": [Function],
+          "isMounted": [Function],
+          "validateCallback": [Function],
+        },
+      },
+      "_mountOrder": 1,
+      "_pendingCallbacks": null,
+      "_pendingElement": null,
+      "_pendingForceUpdate": false,
+      "_pendingReplaceState": false,
+      "_pendingStateQueue": null,
+      "_renderedComponent": NoopInternalComponent {
+        "_currentElement": <div
+          className="App"
+>
+          <div
+                    className="App-header"
+          >
+                    <img
+                              alt="logo"
+                              className="App-logo"
+                              src="logo.svg"
+                    />
+          </div>
+          <TodoAdd
+                    addTodo={[Function]}
+          />
+          <TodoList
+                    removeTodo={[Function]}
+                    todos={
+                              Array [
+                                        Object {
+                                          "id": 1,
+                                          "text": "todo 1",
+                                        },
+                                        Object {
+                                          "id": 2,
+                                          "text": "todo 2",
+                                        },
+                                      ]
+                    }
+          />
+</div>,
+        "_debugID": 2,
+        "_renderedOutput": <div
+          className="App"
+>
+          <div
+                    className="App-header"
+          >
+                    <img
+                              alt="logo"
+                              className="App-logo"
+                              src="logo.svg"
+                    />
+          </div>
+          <TodoAdd
+                    addTodo={[Function]}
+          />
+          <TodoList
+                    removeTodo={[Function]}
+                    todos={
+                              Array [
+                                        Object {
+                                          "id": 1,
+                                          "text": "todo 1",
+                                        },
+                                        Object {
+                                          "id": 2,
+                                          "text": "todo 2",
+                                        },
+                                      ]
+                    }
+          />
+</div>,
+      },
+      "_renderedNodeType": 0,
+      "_rootNodeID": 0,
+      "_topLevelWrapper": null,
+      "_updateBatchNumber": null,
+      "_warnedAboutRefsInRender": false,
+    },
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <App />,
+}
+`;
